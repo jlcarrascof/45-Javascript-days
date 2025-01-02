@@ -16,10 +16,7 @@ Razonamiento: "Esta pregunta está diseñada para evaluar tu habilidad para mani
 */
 
 function evenNumbers(numbers) {
-
-    const isOdd = num => num % 2 === 0
-
-    return numbers.filter(isOdd)
+    return numbers.filter(num => num % 2 === 0)
 }
 
 console.log(evenNumbers([1, 2, 3, 4, 5, 6]))
