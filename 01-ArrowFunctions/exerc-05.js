@@ -14,3 +14,4 @@ Pregunta: "Dado un arreglo de números, escribe una función en JavaScript que r
 Razonamiento: "Esta pregunta está diseñada para evaluar tu habilidad para manipular arreglos en JavaScript y tu conocimiento sobre funciones flecha. Es importante que puedas identificar y filtrar elementos en un arreglo basado en una condición específica, en este caso, si el número es par. Este tipo de tarea es común en el desarrollo de aplicaciones web y puede demostrar tu capacidad para trabajar con datos de manera eficiente."
 
 */
+
