@@ -15,3 +15,10 @@ Razonamiento: "Esta pregunta está diseñada para evaluar tu habilidad para mani
 
 */
 
+function evenNumbers(numbers) {
+    function isOdd(num) {
+        return num % 2 === 0
+    }
+
+    return numbers.filter(isOdd)
+}
