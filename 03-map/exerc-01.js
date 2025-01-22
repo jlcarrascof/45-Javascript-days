@@ -5,3 +5,7 @@ function addFive(numbers) {
     }
     return result
 }
+
+const numbers = [1, 2, 3, 4]
+const newNumbers = addFive(numbers)
+console.log(newNumbers) // [6, 7, 8, 9]
