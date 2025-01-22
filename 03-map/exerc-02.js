@@ -1,9 +1,7 @@
 function addFive(numbers) {
-    const result = []
-    for (let i = 0; i < numbers.length; i++) {
-        result.push(numbers[i] + 5)
-    }
-    return result
+    return numbers.map(function(number) {
+        return number + 5
+    })
 }
 
 const numbers = [1, 2, 3, 4]
