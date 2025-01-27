@@ -1,4 +1,4 @@
-const notas = [85, 90, 78, 92, 88]
+const grades = [85, 90, 78, 92, 88]
 
 const total = grades.reduce((accumulator, grade) => {
     return accumulator + grade
