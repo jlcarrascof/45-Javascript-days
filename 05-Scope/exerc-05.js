@@ -1,11 +1,11 @@
 let count = 0; // Global variable
 if (true) {
-  let contador = 1; // Block-scoped variable
-  console.log(contador); // What is the value of 'contador' here?
+  let count = 1; // Block-scoped variable
+  console.log(count); // What is the value of 'count' here?
   if (true) {
-    let contador = 2; // Another block-scoped variable
-    console.log(contador); // What is the value of 'contador' here?
+    let count = 2; // Another block-scoped variable
+    console.log(count); // What is the value of 'count' here?
   }
-  console.log(contador); // What is the value of 'contador' here?
+  console.log(count); // What is the value of 'count' here?
 }
-console.log(contador); // What is the value of 'contador' here?
+console.log(count); // What is the value of 'count' here?
